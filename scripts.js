@@ -22,3 +22,19 @@ function initCountdown() {
     seconds.innerText = "00";
   }
 }
+
+const modal = document.querySelector(".modal");
+const subscribeBtn = document.querySelector(".subscribe");
+
+subscribeBtn.addEventListener("click", showModal);
+modal.addEventListener("click", handleClick);
+
+function showModal() {
+  modal.classList.toggle("active");
+}
+
+function handleClick(event) {
+  if (event.target === modal) {
+    modal.classList.remove("active");
+  }
+}
