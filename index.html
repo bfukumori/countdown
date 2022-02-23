@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Countdown</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <img src="./assets/top-image.svg" alt="geometric image at top">
+    </div>
+    <main class="countdown-wrapper">
+      <div class="content">
+        <h1 class="header">Ready to launch in...</h1>
+        <div class="timer">
+          <div class="time"><span>Dias</span>
+            <span class="number" data-time="days"> </span>
+          </div>
+          <div class="time"><span>Horas</span>
+            <span class="number" data-time="hours"> </span>
+          </div>
+          <div class="time"><span>Minutos</span>
+            <span class="number" data-time="minutes"> </span>
+          </div>
+          <div class="time"><span>Segundos</span>
+            <span class="number" data-time="seconds"> </span>
+          </div>
+        </div>
+        <p class="call-text">Inscreva-se para saber mais sobre o lançamento</p>
+        <button class="subscribe">Inscreva-se</button>
+      </div>
+      <div class="image">
+        <img src="./assets/rocket.svg" alt="rocket in space">
+      </div>
+    </main>
+    <div class="bottom">
+      <img src="./assets/bottom-image.svg" alt="geometric image at bottom">
+    </div>
+  </div>
+  <script src="./scripts.js" type="module"></script>
+</body>
+
+</html>
