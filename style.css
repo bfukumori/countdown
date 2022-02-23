@@ -94,5 +94,6 @@ align-items: center;
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
+  border: none;
   cursor: pointer;
 }
